@@ -1,5 +1,12 @@
 import random #libreria para llamar y crear numeros random
 
-numero = random.randint(1,100) #rango para el numero random
+numeros = []
 
-print(numero)
+
+
+for x in range(1000):
+    n = random.randint(1,1000)
+    numeros.append(random.randint(1,1000))
+
+numeros.sort()
+print(numeros)
